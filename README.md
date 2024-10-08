@@ -14,6 +14,10 @@
 #
 ## Let's get started!
 #
+```
+sudo ufw enable && sudo ufw allow 22 && sudo ufw allow 433
+```
+#
 - ### Install Docker
 ```
 bash <(curl -s https://raw.githubusercontent.com/frianowzki/covalent-light-client/main/docker.sh)
