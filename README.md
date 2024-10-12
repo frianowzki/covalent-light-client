@@ -35,8 +35,8 @@ bash <(curl -s https://raw.githubusercontent.com/frianowzki/covalent-light-clien
 #
 - ### Clone Covalent Repository
 ```
-git clone --branch v0.11.0 --depth 1 https://github.com/covalenthq/ewm-das.git
-cd ewm-das
+git clone https://github.com/covalenthq/das-ipfs-pinner
+cd das-ipfs-pinner
 ```
 #
 - ### Build Image
