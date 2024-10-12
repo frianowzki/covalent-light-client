@@ -61,5 +61,8 @@ docker logs -f light-client
 #
 - ### ! If Only You Want To Uninstall Covalent Light Client
 ```
-$HOME/.covalent/uninstall.sh
+docker stop light-client && docker rm light client
+```
+```
+rm -rf das-ipfs-pinner
 ```
