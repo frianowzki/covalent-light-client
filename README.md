@@ -66,3 +66,30 @@ docker stop light-client && docker rm light client
 ```
 rm -rf das-ipfs-pinner
 ```
+#
+#
+### Note: If your having this error 
+'websocket: failed to close network connection: close tcp 172.17.0.3:51298->147.75.87.27:443: use of closed network connection'
+#
+### Update IPFS Kubo to this version
+#
+```
+wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
+```
+```
+tar -xvzf kubo_v0.30.0_linux-amd64.tar.gz
+```
+```
+cd kubo
+```
+```
+sudo bash install.sh
+```
+#
+### Now check 
+```
+ipfs --version
+```
+#
+#
+### You're good yo go now. 
