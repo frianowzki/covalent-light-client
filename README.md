@@ -69,9 +69,9 @@ rm -rf das-ipfs-pinner
 #
 #
 ### Note: If your having this error 
-'websocket: failed to close network connection: close tcp 172.17.0.3:51298->147.75.87.27:443: use of closed network connection'
+"websocket: failed to close network connection: close tcp 172.17.0.3:51298->147.75.87.27:443: use of closed network connection"
 #
-### Update IPFS Kubo to this version
+### Update IPFS Kubo to v30 version
 #
 ```
 wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
