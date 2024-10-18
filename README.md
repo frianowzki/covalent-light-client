@@ -74,10 +74,10 @@ rm -rf das-ipfs-pinner
 ### Update IPFS Kubo to v30 version
 #
 ```
-wget https://dist.ipfs.tech/kubo/v0.30.0/kubo_v0.30.0_linux-amd64.tar.gz
+wget https://dist.ipfs.tech/kubo/v0.31.0/kubo_v0.31.0_linux-amd64.tar.gz
 ```
 ```
-tar -xvzf kubo_v0.30.0_linux-amd64.tar.gz
+tar -xvzf kubo_v0.31.0_linux-amd64.tar.gz
 ```
 ```
 cd kubo
