@@ -35,8 +35,8 @@ bash <(curl -s https://raw.githubusercontent.com/frianowzki/covalent-light-clien
 #
 - ### Clone Covalent Repository
 ```
-git clone https://github.com/covalenthq/das-ipfs-pinner
-cd das-ipfs-pinner
+git clone --branch v0.11.0 --depth 1 https://github.com/covalenthq/ewm-das.git
+cd ewm-das
 ```
 #
 - ### Build Image
@@ -64,7 +64,7 @@ docker logs -f light-client
 docker stop light-client && docker rm light client
 ```
 ```
-rm -rf das-ipfs-pinner
+rm -rf ewm-das
 ```
 #
 #
