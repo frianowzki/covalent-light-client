@@ -93,3 +93,38 @@ ipfs --version
 #
 #
 ### You're good yo go now. 
+#
+#
+#
+### Update Light Client Version 
+#
+```
+cd ewm-das
+```
+```
+git fetch --all
+```
+```
+git checkout main
+```
+```
+git pull origin main
+```
+```
+git tag
+```
+```
+git checkout v0.13.0
+```
+```
+docker build -t covalent/light-client -f Dockerfile.lc .
+```
+```
+docker stop light-client
+```
+```
+docker rm light-client
+```
+```
+docker run -d --restart always --name light-client -e PRIVATE_KEY="YOUR_HEX_PRIVATE_KEY_WITHOUT-0x" covalent/light-client
+```
