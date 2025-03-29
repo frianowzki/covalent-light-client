@@ -128,3 +128,5 @@ docker rm light-client
 ```
 docker run -d --restart always --name light-client -e PRIVATE_KEY="YOUR_HEX_PRIVATE_KEY_WITHOUT-0x" covalent/light-client
 ```
+#
+DONE
